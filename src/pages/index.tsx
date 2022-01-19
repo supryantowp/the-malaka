@@ -17,12 +17,14 @@ import Button from '@/components/buttons/Button';
 import BookCarousel from '@/components/carousels/BookCarousel';
 import Layout from '@/components/layout/Layout';
 import NextImage from '@/components/NextImage';
+import Seo from '@/components/Seo';
 
 SwiperCore.use([Pagination, Navigation]);
 
 export default function HomePage() {
   return (
     <Layout>
+      <Seo title='The Malaka - Ebook Landing Page' />
       <section className='bg-dark-primary relative py-20 mb-48 text-white'>
         <div className='layout flex relative justify-between'>
           <div className='space-y-5 sm:w-full md:w-6/12'>
