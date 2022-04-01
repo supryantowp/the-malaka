@@ -3372,6 +3372,13 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+dom7@^4.0.2:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-4.0.4.tgz#8b68c5d8e5e2ed0fddb1cb93e433bc9060c8f3fb"
+  integrity sha512-DSSgBzQ4rJWQp1u6o+3FVwMNnT5bzQbMb+o31TjYYeRi05uAcpF8koxdfzeoe5ElzPmua7W7N28YJhF7iEKqIw==
+  dependencies:
+    ssr-window "^4.0.0"
+
 domelementtype@^2.0.1, domelementtype@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
@@ -5426,9 +5433,9 @@ minimist-options@4.1.0:
     kind-of "^6.0.3"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 modify-values@^1.0.0:
   version "1.0.1"
@@ -6495,6 +6502,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
+ssr-window@^4.0.0, ssr-window@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
+  integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
+
 stable@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
@@ -6730,6 +6742,14 @@ svgo@^2.5.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+swiper@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-7.4.1.tgz#99fc586d1335b45250d2c6b3128dc91f8047d3e7"
+  integrity sha512-dhbL4tpYFvHug1J7GnKElfTi6EYhlZy/vNZRhHkWFyUsWZ1Vovipxj3la5gqllMogygXJMe3zvVv+f6eppvWiA==
+  dependencies:
+    dom7 "^4.0.2"
+    ssr-window "^4.0.2"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
